@@ -2,7 +2,7 @@
 
 In this project, we will design and implement a visually appealing and user-friendly website layout.
 It include sections for an “about me”, skills, projects, and contact information.
-Display your projects with brief descriptions, images, and links to live demos or source code repositories.
+I have displayed my projects with brief descriptions, images, and links to live demos and source code repositories.
 This project is for ALX Capstone Project; however, I look forward to deploy it online once done.
 
 *************************************************************************************************************
