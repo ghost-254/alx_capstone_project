@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Neville Otieno - Software Engineer</title>
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <link rel="stylesheet" type="text/css" href="portfolio_styless.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css">
+</head>
+<body>
+    <!--HEADER & NAVIGATION MENUS-->
+    <header>
+        <div class="header-logo">
+            <img src="./images/logo.png" alt="My Logo">
+            <span class="fi fi-ke"></span>
+        </div>
+        <div class="mobile-menu-container">
+            <div class="mobile-menu-icon" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="overlay-content">
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#skills_technologies">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tip"></div>
+        </div>
+        <nav>
+            <ul class="header-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills_technologies">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--END OF HEADER-->
+
+    <main>
+        <!--HOME SECTION-->
+        <section id="home">
+            <h1>Welcome to my Portfolio!</h1>
+            <p>Hello, I'm Neville Otieno, a skilled Software Engineer with expertise in various technologies.</p>
+            <button id="contactButton">Contact Me</button>
+        </section>
+        <section id="about">
+            <h1>About</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello, I'm Neville Otieno, a dedicated Software Engineer with a passion for creating innovative solutions and pushing the boundaries of technology. 
+                    With expertise in various technologies and a commitment to delivering high-quality software, I aim to make a positive impact in the digital world.
+                    My journey in the world of software engineering began with a deep fascination for technology and a commitment to turning ideas into reality. 
+                    </p>
+                    <p>I have had the chance to bring this dream to reality given the opportunity that I received from ALX Africa to study and learn more about programming and software engineering. 
+                    ALX has enabled me to hone my skills through hands-on experience, self-paced learning, and continuous mentorship programs.</p>
+                    
+                    <p>I specialize in developing efficient and scalable software solutions, from web applications to mobile apps. 
+                    My experience in problem-solving and collaboration, along with a strong foundation in software development, allows me to tackle complex challenges and bring creative ideas to life.
+                    This portfolio showcases my journey, projects, and skills. Explore the sections to learn more about me and my work.</p>
+
+                    <p>If you're interested in collaborating or have any inquiries, feel free to reach out.
+                    Thank you for visiting, and I look forward to connecting with you.</p>
+                </div>
+                <div class="about-image">
+                    <img src="./images/profile.jpg" alt="My Profile Picture">
+                </div>
+            </div>
+        </section>
+        <!--END OF HOME SECTION-->
+
+        <!--CONTACT SECTION-->
+        <section class="contact-form" id="contact">
+            <h1>Contact</h1>
+            <p>Please fill out all fields marked with <span class="required">*</span></p>
+            <form class="contact-form" id="contactForm" action="/" method="post">
+                <div class="form-group">
+                    <label for="firstName">First Name<span class="required">*</span></label>
+                    <input placeholder="Jane" type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="middleName">Middle Name</label>
+                    <input placeholder="Middle Name (Optional)" type="text" id="firstName" name="firstName">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name<span class="required">*</span></label>
+                    <input placeholder="Doe" type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email<span class="required">*</span></label>
+                    <input placeholder="youremail@something.xyz" type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number<span class="required">*</span></label>
+                    <p>Please include your country code as illustrated (e.g +1, +254, +44, etc.)</p>
+                    <select id="countrySelect" name="countrySelect"></select>           
+                    <input placeholder="+254-123456789" type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message<span class="required">*</span></label>
+                    <textarea placeholder="Type Your Message Here!" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!--END OF CONTACT SECTION-->
+
+        <!--SKILLS SECTION-->
+        <section id="skills_technologies">
+            <h1>Skills and Technologies</h1>
+            <!--Technologies-->
+            <div class="technologies">
+                <h2>Technologies</h2>
+                <div class="tech-skill">
+                    <p>HTML</p>
+                    <img src="./images/html2.jpg" alt="HTML Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>CSS</p>
+                    <img src="./images/css.jpg" alt="CSS Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>Python</p>
+                    <img src="./images/python2.jpg" alt="Python Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>Flask</p>
+                    <img src="./images/flask2.png" alt="Flask Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>MySQL</p>
+                    <img src="./images/mysql3.png" alt="MySQL Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>JavaScript</p>
+                    <img src="./images/java2.jpg" alt="Javascript Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>API</p>
+                    <img src="./images/api.png" alt="API Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>Git</p>
+                    <img src="./images/git.png" alt="Git Icon">
+                </div>
+            </div>
+            <!--End of Technologies-->
+
+            <!--Skills-->
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="tech-skill">
+                    <p>Web Development</p>
+                    <img src="./images/web.PNG" alt="Web Development Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>Mobile App Development</p>
+                    <img src="./images/mobile.png" alt="Mobile App Development Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>Graphic Design</p>
+                    <img src="./images/graphic.jpg" alt="Graphic Design Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>Content Writing</p>
+                    <img src="./images/content-writing.jpg" alt="Content Writing Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>Digital Marketing</p>
+                    <img src="./images/digital.jpg" alt="Digital Marketing Icon">
+                </div>
+                <div class="tech-skill">
+                    <p>Freelance Research Work</p>
+                    <img src="./images/research.png" alt="Freelance Research Work Icon">
+                </div>
+            </div>
+            <!--End of Skills-->
+        </section>
+        <!--END OF SKILLS SECTION-->
+
+        <!--PROJECTS SECTION-->
+        <section id="projects">
+            <h1>Projects</h1>
+                <!--Project 1-->
+                <h2>ALX School Projects</h2>
+                    <h3>ALX Software Engineering Projects (All Available in GitHub)</h3>
+                        <div class="project-image">
+                            <a href="https://github.com/ghost-254" target="_blank"><img src="./images/github_profile.PNG" alt="ALX Image"></a>
+                        </div>
+            <div class="project-content">
+                <div class="project-text">
+                    <p>
+                        As part of the self-paced learning opportunity generously offered by ALX Africa, I had the privilege of embarking on an enriching journey characterized by diverse projects that broadened my horizons in the world of technology and software development. 
+                        This invaluable experience was more than just a learning opportunity; it was a transformative experience that allowed me to explore a wide array of projects and dive deep into the realms of programming and software development. 
+                    </p>
+                    <p>
+                        Within this unique self-paced learning environment, I found myself surrounded by a community of like-minded peers who shared a passion for innovation and problem-solving. 
+                        This sense of camaraderie created an immersive and collaborative atmosphere, fostering an environment where we could learn from one another, exchange ideas, and collectively grow.
+                    </p>
+                    <p>
+                        What made this journey truly exceptional was the expert mentorship I received, including invaluable guidance from distinguished individuals such as Cole Baidoo. 
+                        Their mentorship added an extra layer of depth and insight to my learning, helping me navigate complex challenges and hone my skills in various facets of software engineering.
+                    </p>
+                    <p>
+                        As a testament to my dedication and progress in these projects, I have showcased my work on my GitHub profile, where you can explore the tangible results of my journey into the world of technology and software development. 
+                        This platform not only reflects my projects but also serves as a testament to my commitment to continuous learning, innovation, and the pursuit of excellence.
+                    </p>   
+                    <p>
+                        With each project undertaken and each line of code written, this journey has not only equipped me with technical proficiency but has also nurtured my problem-solving abilities and creativity. 
+                        This immersive experience has transformed my passion for technology into tangible results and, ultimately, contributes to my aspirations as a dedicated software engineer.
+                    </p>
+                    <p>
+                        Feel free to click the image to explore my GitHub and witness the journey that has brought me to where I am today.
+                    </p>
+                </div>
+            </div>
+            <!--End of Project 1-->
+                <!--Project 2-->
+                <h2>Machine Learning Projects</h2>
+                    <h3>Audio Fingerprinting Project</h3>
+                        <div class="project2-image">
+                            <a href="https://colab.research.google.com/drive/1Od2n6KJSArIzOvDcjjkZT3pr5k3981NL?usp=sharing" target="_blank"><img src="./images/audio_fingerprint.jpg" alt="Audio Fingerprinting Project Image"></a>
+                        </div>
+            <div class="project-content">
+                <div class="project-text">
+                    <p>
+                        The "Audio Fingerprinting" project is a machine learning endeavor that focuses on audio classification. 
+                        Its primary goal is to accurately categorize audio samples into distinct music genres through the implementation of a deep learning model. 
+                        The project encompasses several key components, starting with data preparation, including setting the audio parameters and loading audio files using the Librosa library. 
+                    </p>
+                    <p> 
+                        Feature extraction is a crucial step, which involves creating a feature matrix 'X' to represent audio characteristics. 
+                        The training dataset comprises various music genres organized in subdirectories, with features extracted from each audio sample. 
+                        A neural network model is constructed using TensorFlow and Keras, consisting of an input layer, hidden layers with ReLU activation, dropout layers to prevent overfitting, and an output layer for multi-class classification. 
+                        Model compilation is accomplished with the Adam optimizer and sparse categorical cross-entropy loss. 
+                    </p>
+                    <p>The model is trained using the feature matrix and labels from the training dataset, and the evaluation metric chosen is accuracy. 
+                        A list of music genre labels is provided to map label indices, and the model's performance is evaluated by predicting the music genre of a test audio sample. 
+                        This project represents a comprehensive approach to audio data processing, feature extraction, deep learning, and multi-class music genre classification.
+                    </p>
+                    <p>
+                        Feel free to click the image to explore the project's code base. 
+                        (The project is restricted for view only and <strong>MUST NOT</strong> be copied whatsoever)
+                    </p>
+                </div>
+            </div>
+            <!--End of Project 2-->
+                    <!--Project 3-->
+                    <h3>Facial Landmark Prediction Project</h3>
+                        <div class="project3-image">
+                            <a href="https://colab.research.google.com/drive/1eX9xG2CYuuQ3qxSXPFyp4xzV6ZQ1qrT-?usp=sharing" target="_blank"><img src="./images/facial_landmarks.PNG" alt="Facial Landmark Prediction Project Image"></a>
+                        </div>
+            <div class="project-content">
+                <div class="project-text">
+                    <p>
+                        The "Facial Landmark Prediction" project is a computer vision and deep learning endeavor with the aim of detecting and predicting facial landmarks in images. 
+                        Facial landmarks are crucial points on a person's face, encompassing features such as the eyes, nose, and mouth. 
+                    </p>    
+                    <p>
+                        This project involves data preparation, face detection, and the extraction of 68 facial landmarks from detected faces using the dlib library. 
+                        The data is organized for model training and testing, and a Convolutional Neural Network (CNN) model is constructed to predict these facial landmarks. 
+                    </p>
+                    <p>
+                        Once trained, the model can make predictions on test images, and the predicted landmarks are overlaid on the images for visualization. 
+                        This project provides a valuable tool for tasks like facial recognition, emotion analysis, and other computer vision applications, making it a noteworthy addition to your portfolio.
+                    </p>
+                    <p>
+                        Feel free to click the image to explore the project's code base. 
+                        (The project is restricted for view only and <strong>MUST NOT</strong> be copied whatsoever)
+                    </p>
+                </div>
+                 <!--End of Project 3-->
+            </div>
+        </section>
+         <!--End of Projects Section-->
+    </main>
+    <!--Scripts-->
+    <script src="scroll.js"></script>
+    <script src="sticky_header.js"></script>
+    <script src="country_selection.js"></script>
+    <script src="form_submission.js"></script>
+    <script src="animation.js"></script>
+    <script src="mobile_menu.js"></script>
+    <!--End of Scripts-->
+</body>
+
+<!--FOOTER-->
+<footer>
+    <div class="icons">
+        <div class="footer-logo">
+            <img src="./images/logo.png" alt="My Logo">
+        </div>
+        <div class="social-icons">
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/neville-otieno-57a88715b" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/ghost-254" target="_blank"><img src="./images/github.png" alt="GitHub"></a>
+            </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/neville.marine" target="_blank"><img src="./images/facebook.png" alt="Facebook"></a>
+            </div>
+            <div class="twitter">
+                <a href="https://twitter.com/NevilleOtieno2" target="_blank"><img src="./images/twitter.png" alt="Twitter"></a>
+            </div>
+            <div class="whatsapp">
+                <a href="https://wa.link/kb5m2r" target="_blank"><img src="./images/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 2023 Neville Otieno - Software Engineer. All rights reserved.
+        <span class="fi fi-ke"></span>
+    </div>
+</footer>
+<!--END OF FOOTER-->
+</html>
